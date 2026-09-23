@@ -38,6 +38,21 @@
 
 ---
 
+## Technology Stack & Frameworks
+
+| Layer | Technologies & Frameworks |
+|---|---|
+| **Frontend** | React 18, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Vite, interactive in-cab dashboards, data visualisation (Recharts, Framer Motion), 3D web visualisation (Three.js, React Three Fiber `@react-three/fiber`, `@react-three/drei`), Lucide icons. |
+| **Desktop Shell** | Python PySide6 (Qt 6), `QWebEngineView` (hardware-accelerated WebGL engine), `QWebChannel` (bi-directional IPC bridge), PyInstaller (standalone Windows `.exe` packaging). |
+| **Backend** | Python, FastAPI architecture, REST APIs, local multi-threaded HTTP server (`backend/app.py`), PySide6 Qt Bridge (`backend/bridge.py`). |
+| **AI/ML** | Python, Pandas, NumPy, Scikit-learn, tree-based ML models and anomaly detection (with modular model-serving interfaces in `backend/dummy_ml.py`). |
+| **Data** | Process-driven synthetic mining dataset with machine health, environmental conditions, operator behaviour, haul cycles, productivity and safety-event data. |
+| **Database/Storage** | PostgreSQL / structured data storage. |
+| **Simulation** | Interactive 3D operational scenarios (rigged CAT EXC-204 excavator, moving worker kinematics, dynamic blind-zone threat radar, dual Site/Cab views) and What-If counterfactual parameter simulation. |
+| **AI Assistant** | AI/LLM-based natural-language interaction connected to the system's predictions and recommendations, featuring a complete **4-language multi-lingual engine** (English, தமிழ் / Tamil, हिन्दी / Hindi, తెలుగు / Telugu). |
+
+---
+
 ## Quick Start
 
 ### Prerequisites
