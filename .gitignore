@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Reference repository download
+reference_repo/
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+!frontend/dist/
+!frontend/dist/**
+
+# Node dependencies
+node_modules/
+frontend/node_modules/
+
+# Environment & IDE
+.venv/
+env/
+venv/
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
