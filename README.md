@@ -1,11 +1,11 @@
-# CAT Smart Operator Assistant — In-Cab Intelligent Dashboard
+# CAT Smart Operator Assistant-In-Cab Intelligent Dashboard
 
 > **Predict → Explain → Simulate → Learn**  
 > An intelligent in-cab companion application for Caterpillar excavators and heavy machinery. Built with **Python PySide6 (Qt)**, featuring hardware-accelerated **3D Three.js simulation**, a **4-language multi-lingual engine**, and a modular **Python ML backend**.
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 - **10 Complete In-Cab Screens**:
   1. **Overview**: Real-time shift timeline, active task progress, 80% confidence range, top-down radar, risk gauge, and digital twin status.
@@ -38,7 +38,7 @@
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.10+
@@ -60,7 +60,7 @@ py tests/smoke_test.py
 
 ---
 
-## 📁 Project Architecture
+## Project Architecture
 
 ```
 .
@@ -81,5 +81,5 @@ py tests/smoke_test.py
 
 ---
 
-## 📄 License
+## License
 Internal Hackathon Project • Caterpillar Inc.
